@@ -26,14 +26,6 @@ Esta é uma API REST desenvolvida em Node.js para consultar dados de campeonatos
 
 3. Configure o arquivo `.env` com os dados do seu banco MySQL:
 
-   ```
-   DB_HOST=localhost
-   DB_USER=usuariolibertadores
-   DB_PASSWORD=senhalibertadores
-   DB_NAME=libertadoresdb
-   DB_PORT=3306
-   ```
-
 4. Certifique-se de que o banco de dados e a tabela `campeonatos` existem:
    ```sql
    CREATE TABLE campeonatos (
